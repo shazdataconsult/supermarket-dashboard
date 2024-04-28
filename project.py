@@ -18,7 +18,7 @@ if fl is not None:
     st.write(filename)
     df = pd.read_csv(filename, encoding = "ISO-8859-1")
 else:
-    os.chdir(r"https://github.com/shazdataconsult/supermarket-dashboard/tree/main")
+    os.chdir("https://github.com/shazdataconsult/supermarket-dashboard/tree/main")
     
 
 def glowing_css():
