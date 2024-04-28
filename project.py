@@ -18,7 +18,7 @@ if fl is not None:
     st.write(filename)
     df = pd.read_csv(filename, encoding = "ISO-8859-1")
 else:
-    os.chdir(r"C:/Users/shazd/Downloads/archive (6)")
+    os.chdir(r"https://github.com/shazdataconsult/supermarket-dashboard/tree/main")
     
 
 def glowing_css():
@@ -63,7 +63,7 @@ def main():
     st.title("Data Analysis and Visualization")
 
     # Read the dataset
-    df = pd.read_csv("C:/Users/shazd/Downloads/archive (6)/supermarket_sales - Sheet1.csv")  # Change path as necessary
+    df = pd.read_csv("./supermarket_sales.csv")  # Change path as necessary
 
     # Data preprocessing
     df["Date"] = pd.to_datetime(df["Date"])
