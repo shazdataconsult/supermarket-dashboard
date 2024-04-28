@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 import os
 import seaborn as sns
 import matplotlib.pyplot as plt
-
+import plotly
 
 st.set_page_config(page_title="Superstore!!!", page_icon=":bar_chart:",layout="wide")
 
